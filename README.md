@@ -27,7 +27,7 @@ Breve descripción, herramientas destacadas y cualquier resultado destacado.
 
 ### Proyecto 1: Detección de cáncer de mama
 
-Detección de cancer de mama, diferenciando si los tumores son benignos o malignos, en este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opcion y daba mejor Accuracy. Para introducir los datos y realizar predicciones se realizara a traves de una app de flask.
+Detección de cancer de mama, diferenciando si los tumores son benignos o malignos, en este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opcion y daba mejor Accuracy. El modelo esta implementado en una api de Flask para introducir los datos y realizar predicciones se realizara a traves, donde quedara tambien un registro de tus predicciones.
 
 
 ### Proyecto 2: Detección de especies de tiburón mediante Deep Learning
