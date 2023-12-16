@@ -13,7 +13,7 @@ Este es el portfolio de Miguel Vela Planas.
 
 Debido al gran auge de los pisos turisticos, se quiere comprobar si de verdad son mas rentables frente al alquiler tradicional, con la idea de invertir en el parque inmobiliario de la ciudad de Valencia y sacar la mayor rentabilidad posible a la inversion. Bibliotecas utilizadas: Pandas, Numpy, Matplotlib, Seaborn, Folium
 
-![Informe en PDF](C:\Users\funny\Desktop\Bootcamp\Portfolio\Exploratory_Data_Analysis\Alquiler_vacacional_vs_tradicional\EDA.pdf)
+![Informe en PDF](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/Exploratory_Data_Analysis/Alquiler_vacacional_vs_tradicional/EDA.pdf "Informe en PDF")
 
 ## Power BI
 
@@ -34,7 +34,7 @@ Detección de cancer de mama, diferenciando si los tumores son benignos o malign
 
 Proyecto de detección de especies de tiburón mediante Deep Learning, utilizando metodos de computer vision con un modelo secuencial con capas convolucionales y densas, con la idea de evolucionar el proyecto hacia un modelo de reconocimiento de especies de tiburón a través de video en tiempo real.
 
-![Informe en PDF](C:\Users\funny\Desktop\Bootcamp\Portfolio\Machine_Learning\Identificador_tiburones_Deep_Learning\ML_ppt.pdf)
+![Informe en PDF](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Identificador_tiburones_Deep_Learning/ML_ppt.pdf "Informe en PDF")
 
 ## Tecnologías Utilizadas
 
