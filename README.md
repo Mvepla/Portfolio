@@ -1,8 +1,8 @@
 Este es el portfolio de Miguel Vela Planas.
 
-# Portafolio de Data Science
+# Portfolio de Data Science
 
-¡Bienvenido a mi portafolio de Data Science! Aquí encontrarás una variedad de proyectos de Exploratory Data Analysis, Webscrapping, Machine Learning tradicional y Deep Learning
+¡Bienvenido a mi portfolio de Data Science! Aquí encontrarás una variedad de proyectos de Exploratory Data Analysis, Webscrapping, Machine Learning tradicional y Deep Learning
 
 ## Data Analysis
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
