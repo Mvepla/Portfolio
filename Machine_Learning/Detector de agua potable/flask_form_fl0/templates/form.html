@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} ¿El agua es potable o no? {% endblock %}</h1>
+    <form method="post">
+
+
+        <label for="ph">pH</label>
+        <br>
+        <input type="text" name="ph"
+               placeholder="pH"
+               value="{{ request.form['ph'] }}"></input>
+        <br>
+
+        <label for="dur">dureza</label>
+        <br>
+        <input type="text" name="dur"
+               placeholder="dureza"
+               value="{{ request.form['dur'] }}"></input>
+        <br>
+
+        <label for="tds">Sólidos totales disueltos</label>
+        <br>
+        <input type="text" name="tds"
+               placeholder="Sólidos totales disueltos"
+               value="{{ request.form['tds'] }}"></input>
+        <br>
+
+        <label for="clo">Cloraminas</label>
+        <br>
+        <input type="text" name="clo"
+               placeholder="Cloraminas"
+               value="{{ request.form['clo'] }}"></input>
+        <br>
+
+        <label for="sulf">sulfatos</label>
+        <br>
+        <input type="text" name="sulf"
+               placeholder="sulfatos"
+               value="{{ request.form['sulf'] }}"></input>
+        <br>
+
+        <label for="cond">Conductividad</label>
+        <br>
+        <input type="text" name="cond"
+               placeholder="Conductividad"
+               value="{{ request.form['cond'] }}"></input>
+        <br>
+
+        <label for="co">Carbono orgánico</label>
+        <br>
+        <input type="text" name="co"
+               placeholder="Carbono orgánico"
+               value="{{ request.form['co'] }}"></input>
+        <br>
+
+        <label for="thm">Trihalometanos</label>
+        <br>
+        <input type="text" name="thm"
+               placeholder="Trihalometanos"
+               value="{{ request.form['thm'] }}"></input>
+        <br>
+
+        <label for="turb">Turbidez</label>
+        <br>
+        <input type="text" name="turb"
+               placeholder="Turbidez"
+               value="{{ request.form['turb'] }}"></input>
+        <br>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <div><STRONG>Prediction: {{prediction}}</STRONG></div>
+
+{% endblock %}

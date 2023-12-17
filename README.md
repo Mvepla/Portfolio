@@ -25,9 +25,9 @@ Breve descripción, herramientas destacadas y cualquier resultado destacado.
 ## Machine Learning
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Proyecto 1: Detección de cáncer de mama
+### Proyecto 1: Detector de agua potable
 
-Detección de cancer de mama, diferenciando si los tumores son benignos o malignos, en este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opcion y daba mejor Accuracy. El modelo esta implementado en una api de Flask para introducir los datos y realizar predicciones se realizara a traves, donde quedara tambien un registro de tus predicciones.
+El acceso al agua potable es esencial para la salud, un derecho humano básico y un componente de una política eficaz de protección de la salud. Es importante como cuestión de salud y desarrollo a nivel nacional, regional y local. En algunas regiones, se ha demostrado que las inversiones en abastecimiento de agua y saneamiento pueden reportar un beneficio económico neto, ya que la reducción de los efectos adversos para la salud y de los costes de atención sanitaria supera los costes de realizar las intervenciones. En este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opcion y daba mejor Accuracy. El modelo esta implementado en una app de Flask para introducir los datos y realizar predicciones, tambien se realizara un registro de las predicciones, con la fecha y hora que se ha realizado la prediccion y se guardara en una base de datos tipo Postgress.
 
 
 ### Proyecto 2: Detección de especies de tiburón mediante Deep Learning
