@@ -1,0 +1,2 @@
+La siguiente url lleva a la api para obtener predicciones y su respectiva base de datos, si esta caida no dudes en avisarme a miguel.vela.planas@gmail.com y la pongo activa enseguida.
+https://app-water-dev-kpgs.2.ie-1.fl0.io/
