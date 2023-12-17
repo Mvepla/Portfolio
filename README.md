@@ -11,15 +11,15 @@ Este es el portfolio de Miguel Vela Planas.
 
 ### Proyecto 1: Análisis exploratorio de datos en alquiler vacacional vs tradicional
 
-Debido al gran auge de los pisos turisticos, se quiere comprobar si de verdad son mas rentables frente al alquiler tradicional, con la idea de invertir en el parque inmobiliario de la ciudad de Valencia y sacar la mayor rentabilidad posible a la inversion. Bibliotecas utilizadas: Pandas, Numpy, Matplotlib, Seaborn, Folium
+Debido al gran auge de los pisos turísticos, se quiere comprobar si de verdad son mas rentables frente al alquiler tradicional, con la idea de invertir en el parque inmobiliario de la ciudad de Valencia y sacar la mayor rentabilidad posible a la inversión. Bibliotecas utilizadas: Pandas, Numpy, Matplotlib, Seaborn, Folium
 
 ![Informe en PDF](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/Exploratory_Data_Analysis/Alquiler_vacacional_vs_tradicional/EDA.pdf "Informe en PDF")
 
 ## Power BI
 
-### Proyecto 2: [Nombre del Proyecto 2]
+### Proyecto 1: Operaciones inmobiliarias
 
-Breve descripción, herramientas destacadas y cualquier resultado destacado.
+Dashboard interactivo sobre operaciones inmobiliarias en diferentes ciudades de Europa, con una serie de filtros integrados para que faciliten la visualización.
 
 
 ## Machine Learning
@@ -27,12 +27,12 @@ Breve descripción, herramientas destacadas y cualquier resultado destacado.
 
 ### Proyecto 1: Detector de agua potable
 
-El acceso al agua potable es esencial para la salud, un derecho humano básico y un componente de una política eficaz de protección de la salud. Es importante como cuestión de salud y desarrollo a nivel nacional, regional y local. En algunas regiones, se ha demostrado que las inversiones en abastecimiento de agua y saneamiento pueden reportar un beneficio económico neto, ya que la reducción de los efectos adversos para la salud y de los costes de atención sanitaria supera los costes de realizar las intervenciones. En este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opcion y daba mejor Accuracy. El modelo esta implementado en una app de Flask para introducir los datos y realizar predicciones, tambien se realizara un registro de las predicciones, con la fecha y hora que se ha realizado la prediccion y se guardara en una base de datos tipo Postgress alojada en el mismo servicio. https://app-water-dev-kpgs.2.ie-1.fl0.io/
+El acceso al agua potable es esencial para la salud, un derecho humano básico y un componente de una política eficaz de protección de la salud. Es importante como cuestión de salud y desarrollo a nivel nacional, regional y local. En algunas regiones, se ha demostrado que las inversiones en abastecimiento de agua y saneamiento pueden reportar un beneficio económico neto, ya que la reducción de los efectos adversos para la salud y de los costes de atención sanitaria supera los costes de realizar las intervenciones. En este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opción y daba mejor Accuracy. El modelo esta implementado en una app de Flask para introducir los datos y realizar predicciones, también se realizará un registro de las predicciones, con la fecha y hora que se ha realizado la predicción y se guardara en una base de datos tipo Postgress alojada en el mismo servicio. https://app-water-dev-kpgs.2.ie-1.fl0.io/
 
 
 ### Proyecto 2: Detección de especies de tiburón mediante Deep Learning
 
-Proyecto de detección de especies de tiburón mediante Deep Learning, utilizando metodos de computer vision con un modelo secuencial con capas convolucionales y densas, con la idea de evolucionar el proyecto hacia un modelo de reconocimiento de especies de tiburón a través de video en tiempo real, para realizar las predicciones, al no tener que acceder ni registrar nada en una base de datos se ha abierto una app en streamlit para subir las imagenes y realizar la prediccion. https://identificador-tiburones.streamlit.app/
+Proyecto de detección de especies de tiburón mediante Deep Learning, utilizando métodos de computer vision con un modelo secuencial con capas convolucionales y densas, con la idea de evolucionar el proyecto hacia un modelo de reconocimiento de especies de tiburón a través de video en tiempo real, para realizar las predicciones, al no tener que acceder ni registrar nada en una base de datos se ha abierto una app en streamlit para subir las imágenes y realizar la prediccion. https://identificador-tiburones.streamlit.app/
 
 ![Informe en PDF](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Identificador_tiburones_Deep_Learning/ML_ppt.pdf "Informe en PDF")
 
