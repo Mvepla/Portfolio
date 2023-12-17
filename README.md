@@ -21,7 +21,7 @@ Debido al gran auge de los pisos turísticos, se quiere comprobar si de verdad s
 
 Dashboard interactivo sobre operaciones inmobiliarias en diferentes ciudades de Europa, con una serie de filtros integrados para que faciliten la visualización.
 
-![Operaciones inmobiliarias](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/operaciones%20inmobiliarias.PNG "operaciones inmobiliarias")
+![Operaciones inmobiliarias](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/operaciones%20inmobiliarias.PNG)
 
 
 
