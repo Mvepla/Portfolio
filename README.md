@@ -22,6 +22,12 @@ Dashboard interactivo sobre operaciones inmobiliarias en diferentes ciudades de 
 
 ![Operaciones inmobiliarias](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/operaciones%20inmobiliarias.PNG)
 
+### Proyecto 2: Distribución de conservas de frutas por Argentina
+
+Dashboard minimalista para una empresa de conservas de fruta argentina (FruitFresco), ayudando a la toma de decisiones para ubicar su nuevo punto de distribucion para todo el pais de manera que se pueda realizar una distribución mas efectiva y disminuyendo los costes de distribución, ademas de presentar las ventas por mes y por producto.
+
+![Distribución geográfica]()
+
 
 
 ## Machine Learning
