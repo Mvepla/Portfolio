@@ -28,7 +28,11 @@ Dashboard minimalista para una empresa de conservas de fruta argentina (FruitFre
 
 ![Distribución geográfica](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/Distribucion%20de%20conservas%20de%20fruta%20FruitFresco.PNG)
 
+### Proyecto 3: Análisis ventas cadena supermercados en diferentes regiones
 
+Dashboard con dos perspectivas, una atendiendo al desempeño de cada zona y sucursal y la segunda analizando el desempeño de cada producto en funcion de las ventas. Se ha creado  una jerarquia nueva para poder explorar mejor las regiones con sus correspondientes sucursales.
+
+![Cadena supermercados]()
 
 ## Machine Learning
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
