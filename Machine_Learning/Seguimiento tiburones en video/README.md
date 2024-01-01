@@ -8,3 +8,4 @@ Para este proyecto se ha utilizado la libreria OpenCV para Python, la cual permi
 
 Al ser el video muy pesado y no poder subirlo a Github, a continuacion dejo un pequeño clip de como funciona el modelo.
 
+![Gif tiburones](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Seguimiento%20tiburones%20en%20video/demo.gif)

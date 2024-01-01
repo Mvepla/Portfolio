@@ -59,7 +59,7 @@ Proyecto de detección de especies de tiburón mediante Deep Learning, utilizand
 
 Proyecto de seguimiento de animales, en este caso tiburones, mediante la libreria OpenCV. Al ser el video excesivamente pesado a continuación se muestra el resultado del modelo
 
-![Gif tiburones]()
+![Gif tiburones](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Seguimiento%20tiburones%20en%20video/demo.gif)
 
 ## Tecnologías Utilizadas
 
