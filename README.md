@@ -36,7 +36,7 @@ Dashboard con dos perspectivas, una atendiendo al desempeño de cada zona y sucu
 
 ### Proyecto 4: Ventas comercio minorista ElectroMas
 
-Dasboard con dos perspectivas y con gama cromatica corporativa de la empresa ElectroMas. La primera perspectiva muestra ventas totales y su tendencia a lo largo del tiempo, así como su distribución en los canales de venta (tiendas físicas u online) y un mapa para conocer geográficamente dónde se concentran sus clientes. En la segunda perspectiva, se muestra como se comparan las diferentes categorías de productos entre sí, respecto a la cantidad de unidades vendidas.
+Dasboard con dos perspectivas y utilizando la gama cromatica corporativa de la empresa ElectroMas. La primera perspectiva muestra informacion detallada en tarjetas, asi como un grafico de las cantidades vendidas y su tendencia a lo largo del tiempo, así como su distribución en los canales de venta (tiendas físicas u online) y un mapa para conocer geográficamente dónde se concentran sus clientes. En la segunda perspectiva, se muestra como se comparan las diferentes categorías de productos entre sí, respecto a la cantidad de unidades vendidas y una tabla detallada de cantidades por cada categoria y subcategoria.
 
 ![Cadena supermercados](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/ElectroMas.gif)
 
