@@ -69,6 +69,8 @@ Proyecto de seguimiento de animales, en este caso tiburones, mediante la libreri
 - Power BI
 - Web scrapping
 - Streamlit
+- Fl0
+- AWS
 
 ## Contacto
 
