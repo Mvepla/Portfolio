@@ -12,7 +12,7 @@
 
 Debido al gran auge de los pisos turísticos, se quiere comprobar si de verdad son mas rentables frente al alquiler tradicional, con la idea de invertir en el parque inmobiliario de la ciudad de Valencia y sacar la mayor rentabilidad posible a la inversión. Bibliotecas utilizadas: Pandas, Numpy, Matplotlib, Seaborn, Folium
 
-![Informe en PDF](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/Exploratory_Data_Analysis/Alquiler_vacacional_vs_tradicional/EDA.pdf "Informe en PDF")
+[![PDF]([URL_de_la_imagen](https://www.flaticon.es/icono-gratis/pdf_337946))](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/Exploratory_Data_Analysis/Alquiler_vacacional_vs_tradicional/EDA.pdf "Informe en PDF")
 
 ## Power BI
 
@@ -52,7 +52,7 @@ El acceso al agua potable es esencial para la salud, un derecho humano básico y
 
 Proyecto de detección de especies de tiburón mediante Deep Learning, utilizando métodos de computer vision con un modelo secuencial con varias capas convolucionales y densas, con la idea de evolucionar el proyecto hacia un modelo de reconocimiento de especies de tiburón a través de video en tiempo real, para realizar las predicciones, al no tener que acceder ni registrar nada en una base de datos se ha abierto una app en streamlit para subir las imágenes y realizar la prediccion. https://identificador-tiburones.streamlit.app/
 
-![Informe en PDF](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Identificador_tiburones_Deep_Learning/ML_ppt.pdf "Informe en PDF")
+[![PDF]([URL_de_la_imagen](https://www.flaticon.es/icono-gratis/pdf_337946))](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Identificador_tiburones_Deep_Learning/ML_ppt.pdf)
 
 
 ### Proyecto 3: Seguimiento de tibrones en video
