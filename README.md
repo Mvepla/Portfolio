@@ -12,7 +12,8 @@
 
 Debido al gran auge de los pisos turísticos, se quiere comprobar si de verdad son mas rentables frente al alquiler tradicional, con la idea de invertir en el parque inmobiliario de la ciudad de Valencia y sacar la mayor rentabilidad posible a la inversión. Bibliotecas utilizadas: Pandas, Numpy, Matplotlib, Seaborn, Folium
 
-[![PDF]([URL_de_la_imagen](https://www.flaticon.es/icono-gratis/pdf_337946))](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/Exploratory_Data_Analysis/Alquiler_vacacional_vs_tradicional/EDA.pdf "Informe en PDF")
+[![PDF](https://img.shields.io/badge/PDF-Download-red?style=for-the-badge&logo=AdobeAcrobatReader)](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/Exploratory_Data_Analysis/Alquiler_vacacional_vs_tradicional/EDA.pdf)
+
 
 ## Power BI
 
