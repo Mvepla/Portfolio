@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endpoints</title>
+    <style>
+        /* Style for the body */
+        body {
+            background-color: #ac1a2f;
+            color: #f0f0f0;
+            font-size: 18px;
+        }
+
+        /* Style for the header */
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            color: #f9f9f9;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Style for collapsible boxes */
+        .endpoint-box {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #87888a;
+        }
+
+        .endpoint-name {
+            cursor: pointer;
+            font-weight: bold;
+            color: #f9f9f9;
+        }
+
+        .endpoint-details {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Endpoints</div>
+
+    <!-- First Collapsible Box -->
+    <div class="endpoint-box">
+        <div class="endpoint-name">Subir acta de reunión</div>
+        <div class="endpoint-details">
+            <p><strong>Endpoint:</strong> /subir_pdf</p>
+            <p><strong>Descripción:</strong>Este endpoint obtiene el pdf del acta de reunión</p>
+            <p><strong>Ruta:</strong> https://16.170.236.176/subir_pdf</p>
+            <p><strong>Método:</strong> POST</p>
+            <p><strong>Formato respuesta:</strong>json</p>
+            <p><strong>Respuesta ejemplo:</strong> {"message":string}</p>
+        </div>
+    </div>
+
+    <!-- Second Collapsible Box -->
+    <div class="endpoint-box">
+        <div class="endpoint-name">Resumen del acta</div>
+        <div class="endpoint-details">
+            <p><strong>Endpoint:</strong> /resumen</p>
+            <p><strong>Descripción:</strong>Por medio de una llamada a api externa, obtenemos un resumen del texto del pdf subido.</p>
+            <p><strong>Ruta:</strong> https://16.170.236.176/resumen</p>
+            <p><strong>Método:</strong> GET</p>
+            <p><strong>Formato respuesta:</strong> json</p>
+            <p><strong>Respuesta ejemplo:</strong> Texto del resumen del acta</p>
+            <!-- <p><strong>Ejemplo input:</strong> Mandad una imagen</p> -->
+        </div>
+    </div>
+
+    <!-- Add more collapsible boxes as needed -->
+
+    <div class="endpoint-box">
+        <div class="endpoint-name">Audio del resumen</div>
+        <div class="endpoint-details">
+            <p><strong>Endpoint:</strong> /audio</p>
+            <p><strong>Descripción:</strong> Por medio de una llamada a api externa, obtenemos un audio en formato .mp3 del resumen</p>
+            <p><strong>Ruta:</strong> https://16.170.236.176/audio</p>
+            <p><strong>Método:</strong> GET</p>
+            <p><strong>Formato respuesta:</strong> Audio mp3</p>
+            <p><strong>Respuesta ejemplo:</strong> Audio del resumen del acta</p>
+            <!-- <p><strong>Ejemplo input:</strong> Example for Endpoint 2</p> -->
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to toggle the visibility of endpoint detailssv
+        const endpointNames = document.querySelectorAll('.endpoint-name');
+
+        endpointNames.forEach(name => {
+            name.addEventListener('click', () => {
+                const details = name.nextElementSibling;
+                details.style.display = details.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>

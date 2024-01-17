@@ -61,6 +61,13 @@ Proyecto de seguimiento de animales, en este caso tiburones, mediante la libreri
 
 ![Gif tiburones](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Seguimiento%20tiburones%20en%20video/demo.gif)
 
+### Proyecto 4: Desafio tripulaciones
+
+El desafio de tripulaciones es la práctica integrada en la que trabajan los estudiantes de todas las disciplinas a través de un proyecto real. El proyecto sobre el que trabajamos las tres verticales es una web-app para el Colegio de Administradores de Fincas Valencia-Castellón. El enfoque del proyecto es mejorar la forma de trabajo de los administradores para poder ser mas eficientes en su trabajo, el proyecto se lleva a cabo junto a las otras 2 verticales, UX/UI y Fullstack. 
+
+La parte de proyecto del grupo de Data Science se centra en realizar una API-REST para realizar un tratamiento de las actas de las reuniones de comunidad. Para ello se ha creado un modelo que recibe como entrada un acta en formato pdf, este acta se transforma en texto y pasa a un modelo de Huggingface (facebook/bart-large.cnn) el cual hace un resumen. Una vez obtenido el resumen, para transcribirlo a audio pasa por un modelo Google Text-to-Speech (gTTs) que devuelve el contenido del resumen en un archivo mp3. Una vez tenemos el pdf, resumen y modelo se suben a la BBDD, para la BBD se usa MongoDB Atlas, que es un servicio de Cloud Database (o Base de Datos en la Nube)
+
+
 ## Tecnologías Utilizadas
 
 - Python
