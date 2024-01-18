@@ -7,3 +7,4 @@ gunicorn
 psycopg2-binary
 PyPDF2
 Flask-CORS
+pydub

@@ -19,12 +19,10 @@ db = client.get_database('datadmin_fincas')
 resumen_collection = db['resumen'] 
 audios_collection = db['audios'] 
 
-#ruta donde se enseña la documentacion de la API
 @app.route('/', methods=['GET'])
 def plantilla():
     return render_template('endpoints.html')
 
-#ruta para subir pdf
 @app.route('/subir_pdf', methods=['POST'])
 def prueba():
     if 'file' not in request.files:
@@ -56,18 +54,18 @@ def prueba():
 
     local_audio_file = './audio.mp3'
 
-    # Utilizamos la coleccion GridFS para poder subir archivos que no sean un json 
+    # Connect to the GridFS collection
     fs_pdf = GridFS(db, collection='pdfs')
     fs_audio = GridFS(db, collection='audios')
 
     with open(local_audio_file, 'rb') as audio_file:
+        # Save the binary content to GridFS
         audio_file_id = fs_audio.put(audio_file, filename=f"{file_name}.mp3", metadata={'folder': 'audios'})
     pdf_file_id = fs_pdf.put(file, filename=file_name, metadata={'folder': 'pdfs'})
 
 
-    return jsonify({'message': f'Archivo de audio "{file_name}" generado y guardado correctamente'}), 201
+    return jsonify({'message': f'Archivo de audio "{file_name}" y resumen generados y guardados correctamente'}), 201
 
-# Llama a la base de datos donde esta alojado el resumen y lo devuelve.
 @app.route('/resumen', methods=['GET','POST'])
 def resumen():
     document = resumen_collection.find_one()
@@ -75,29 +73,38 @@ def resumen():
     if document:
         resumen_texto = document.get('resumen')
     else:
-        print("No se ha encontrado ningún resumen en la base de datos")
+        return "No se ha encontrado ningún resumen en la base de datos"
 
     return jsonify({'resumen': resumen_texto})
 
-# Llama a la base de datos donde esta alojado el audio, lo monta y lo devuelve.
-@app.route('/audio', methods=['GET','POST'])
+@app.route('/audio', methods=['GET'])
 def audio():
     fs_audio = GridFS(db, collection='audios')
-
+    # Assuming there's only one audio file, retrieve it
     audio_file = fs_audio.find_one()
 
     if audio_file:
-        # monta un header
+        # Leer el contenido binario del archivo
+        binary_content = audio_file.read()
+
+        # Convertir el formato binario a AudioSegment
+        audio_data = AudioSegment.from_file(io.BytesIO(binary_content), format="mp3")
+
+        # Guardar el AudioSegment como MP3
+        mp3_content = io.BytesIO()
+        audio_data.export(mp3_content, format="mp3")
+
+        # Set the appropriate response headers
         response_headers = {
             'Content-Type': 'audio/mp3',
             'Content-Disposition': f'attachment; filename={audio_file.filename}'
         }
 
-        # Devuelve el archivo una vez montado
-        return send_file(audio_file, as_attachment=True, download_name=audio_file.filename, mimetype='audio/mp3')
+        # Return the MP3 file as a response
+        return send_file(mp3_content, as_attachment=True, download_name=f"{audio_file.filename}", mimetype='audio/mp3')
 
     else:
-        return "No audio files found in the collection."
+        return "No se ha encontrado ningún audio en la base de datos"
 
 if __name__ == '__main__':
     app.run(debug=True,port=8000)
