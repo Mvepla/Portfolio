@@ -1,12 +1,14 @@
 
-# Portfolio de Data Science.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=33&pause=1000&color=000000&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=435&lines=Portfolio+Data+Science" alt="Typing SVG" /></a>
 
 ¡Bienvenid@ a mi portfolio de Data Science! Aquí encontrarás una variedad de proyectos de Exploratory Data Analysis, Webscrapping, Machine Learning tradicional y Deep Learning
 
-## Data Analysis.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Data Analysis.
+
 
 ## Exploratory Data Analysis.
+
 
 ### Proyecto 1: Análisis exploratorio de datos en alquiler vacacional vs tradicional.
 
@@ -17,11 +19,13 @@ Debido al gran auge de los pisos turísticos, se quiere comprobar si de verdad s
 
 ## Power BI.
 
+
 ### Proyecto 1: Operaciones inmobiliarias.
 
 Dashboard interactivo sobre operaciones inmobiliarias en diferentes ciudades de Europa, con una serie de filtros integrados para que faciliten la visualización.
 
 ![Operaciones inmobiliarias](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/operaciones%20inmobiliarias.gif)
+
 
 ### Proyecto 2: Distribución de conservas de frutas por Argentina.
 
@@ -29,11 +33,13 @@ Dashboard minimalista para una empresa de conservas de fruta argentina (FruitFre
 
 ![Distribución geográfica](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/Distribucion%20de%20conservas%20de%20fruta%20FruitFresco.PNG)
 
+
 ### Proyecto 3: Análisis ventas cadena supermercados en diferentes regiones.
 
 Dashboard con dos perspectivas, una atendiendo al desempeño de cada zona y sucursal y la segunda analizando el desempeño de cada producto en funcion de las ventas. Se ha creado  una jerarquia nueva para poder explorar mejor las regiones con sus correspondientes sucursales y añadido un boton de navegación entre perspectivas.
 
 ![Cadena supermercados](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/productos%20y%20sucursales.gif)
+
 
 ### Proyecto 4: Ventas comercio minorista ElectroMas.
 
@@ -41,8 +47,9 @@ Dasboard con dos perspectivas y utilizando la gama cromatica corporativa de la e
 
 ![ElectroMas](https://github.com/Mvepla/Portfolio/blob/main/Data%20Analysis/PowerBI/ElectroMas.gif)
 
-## Machine Learning
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Machine learning.
+
 
 ### Proyecto 1: Detector de agua potable.
 
@@ -56,32 +63,34 @@ Proyecto de detección de especies de tiburón mediante Deep Learning, utilizand
 [![PDF](https://img.shields.io/badge/PDF-Download-red?style=for-the-badge&logo=AdobeAcrobatReader)](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Identificador_tiburones_Deep_Learning/ML_ppt.pdf)
 
 
-
 ### Proyecto 3: Seguimiento de tibrones en video.
 
 Proyecto de seguimiento de animales, en este caso tiburones, mediante la libreria OpenCV. Al ser el video excesivamente pesado a continuación se muestra el resultado del modelo.
 
 ![Gif tiburones](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Seguimiento%20tiburones%20en%20video/demo.gif)
 
+
 ### Proyecto 4: Desafío tripulaciones.
 
 El desafío de tripulaciones es la práctica integrada en la que trabajan los estudiantes de todas las disciplinas a través de un proyecto real. El proyecto sobre el que trabajamos las tres verticales es una web-app para el Colegio de Administradores de Fincas Valencia-Castellón. El enfoque del proyecto es mejorar la forma de trabajo de los administradores para poder ser mas eficientes en su trabajo, el proyecto se lleva a cabo junto a las otras 2 verticales, UX/UI y Fullstack. 
 
-La parte de proyecto del grupo de Data Science se centra en realizar una API-REST para realizar un tratamiento de las actas de las reuniones de comunidad. Para ello se ha creado un modelo que recibe como entrada un acta en formato pdf, este acta se transforma en texto y pasa a un modelo de Huggingface (facebook/bart-large.cnn) el cual hace un resumen. Una vez obtenido el resumen, para transcribirlo a audio pasa por un modelo Google Text-to-Speech (gTTs) que devuelve el contenido del resumen en un archivo mp3. Una vez tenemos el pdf, resumen y modelo se suben a la BBDD, para la BBD se usa MongoDB Atlas, que es un servicio de Cloud Database (o Base de Datos en la Nube)
+La parte de proyecto del grupo de Data Science se centra en realizar una API-REST para realizar un tratamiento de las actas de las reuniones de comunidad. Para ello se ha creado una api con flask que recibe como entrada un acta en formato pdf, este acta se transforma en texto y pasa a un modelo de Huggingface (facebook/bart-large.cnn) el cual hace un resumen. Una vez obtenido el resumen, para transcribirlo a audio pasa por un modelo Google Text-to-Speech (gTTs) que devuelve el contenido del resumen en un archivo mp3. Una vez tenemos el pdf, resumen y modelo se suben a la BBDD, para la BBD se usa MongoDB Atlas, que es un servicio de Cloud Database (o Base de Datos en la Nube)
 
 
-## Tecnologías Utilizadas.
+# Tecnologías Utilizadas.
 
 - Python
 - Bibliotecas: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Tensorflow,  etc.
 - Jupyter Notebooks
 - Power BI
 - Web scrapping
+- Flask
 - Streamlit
 - Fl0
 - AWS
+- MongoDB
 
-## Contacto.
+# Contacto.
 
 ¡Gracias por explorar mi portfolio! Si tienes alguna pregunta o comentario, no dudes en contactarme:
 
