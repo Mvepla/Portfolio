@@ -62,6 +62,14 @@ Proyecto de detección de especies de tiburón mediante Deep Learning, utilizand
 
 [![PDF](https://img.shields.io/badge/PDF-Download-red?style=for-the-badge&logo=AdobeAcrobatReader)](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Identificador_tiburones_Deep_Learning/ML_ppt.pdf)
 
+### Proyecto 3: Cálculo del área de un nódulo en mamografía.
+
+Proyecto de detección y cálculo de área de manchas de una mamografía, el usuario define el contorno de la mancha mediante un polígono seleccionado mediante clicks de ratón.
+
+![mamografia](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion_manchas_mamografia/mamografia.PNG)
+
+![mamografia_con_area](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion_manchas_mamografia/mamografia_con_poligono.jpg)
+
 
 ### Proyecto 3: Seguimiento de tibrones en video.
 
