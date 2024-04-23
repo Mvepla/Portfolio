@@ -13,10 +13,14 @@ Las mamografías habituales son las mejores pruebas con que cuentan los médicos
 
 Este proyecto Tiene la idea de facilitar la detección de cáncer de mama mediante el calculo del área de una mancha vista en una mamografía. Para ello se utiliza la libreria OpenCV para realizar tratamiento de imágenes de RX en las cuales se ven los posibles nódulos cancerígenos en forma de manchas, por lo que interesa poder medir el área de las manchas para poder tener una idea del tamaño.
 
+![mamografia](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion_manchas_mamografia/mamografia.PNG)
+
+![mamografia_con_area](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion_manchas_mamografia/mamografia_con_poligono.jpg)
+
 📝 Contenido.
 
 La estructura de este trabajo es la siguiente:
 
-    - detector.ipynb: notebook donde esta todo el código en una misma celda con comentarios sobre las partes y donde se puede ejecutar para comprobar su funcionamiento.
-    - mamografia.png: mamografia donde queremos medir las manchas.
-    - mamografia_con_poligono.jpg: mamografia procesada, donde se marcamos los posibles nódulos cancerígenos en forma de polígono y el área de las mancha delineada con el polígono.
+- detector.ipynb: notebook donde esta todo el código en una misma celda con comentarios sobre las partes y donde se puede ejecutar para comprobar su funcionamiento.
+- mamografia.png: mamografia donde queremos medir las manchas.
+- mamografia_con_poligono.jpg: mamografia procesada, donde se marcamos los posibles nódulos cancerígenos en forma de polígono y el área de las mancha delineada con el polígono.
