@@ -84,6 +84,15 @@ El desafío de tripulaciones es la práctica integrada en la que trabajan los es
 
 La parte de proyecto del grupo de Data Science se centra en realizar una API-REST para realizar un tratamiento de las actas de las reuniones de comunidad. Para ello se ha creado una api con flask que recibe como entrada un acta en formato pdf, este acta se transforma en texto y pasa a un modelo de Huggingface (facebook/bart-large.cnn) el cual hace un resumen. Una vez obtenido el resumen, para transcribirlo a audio pasa por un modelo Google Text-to-Speech (gTTs) que devuelve el contenido del resumen en un archivo mp3. Una vez tenemos el pdf, resumen y modelo se suben a la BBDD, para la BBD se usa MongoDB Atlas, que es un servicio de Cloud Database (o Base de Datos en la Nube)
 
+# Talleres Bootcamp
+
+### Taller Visualizaciones: ¿Nos mienten con los datos?
+
+Taller para los alumnos de Data Science y UX/UI donde vemos como se puede manipular la percepción de un dato dependiendo de la visualizacion elegida.
+
+### Taller PowerBI & Looker:
+
+Taller para los alumnos de Data Science donde verremos dos programas para poder visualizar datos, uno es PowerBI y el otro es Looker, además verremos las diferentes maneras que tenemos para nutrir de datos ambos programas como excell y webscrapping para PowerBI y Bigquery de Google Cloud Plattform para Looker.
 
 # Tecnologías Utilizadas.
 
