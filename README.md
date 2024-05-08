@@ -53,7 +53,7 @@ Dasboard con dos perspectivas y utilizando la gama cromatica corporativa de la e
 
 ### Proyecto 1: Detector de agua potable.
 
-El acceso al agua potable es esencial para la salud, un derecho humano básico y un componente de una política eficaz de protección de la salud. Es importante como cuestión de salud y desarrollo a nivel nacional, regional y local. En algunas regiones, se ha demostrado que las inversiones en abastecimiento de agua y saneamiento pueden reportar un beneficio económico neto, ya que la reducción de los efectos adversos para la salud y de los costes de atención sanitaria supera los costes de realizar las intervenciones. En este proyecto se han utilizado técnicas de Machine Learning tradicional del tipo de clasificación, probando cual era la mejor opción realizando una serie de pipes para optimizar cada modelo propuesto, una vez cada modelo optimizado se ha comprobado cual es el mejor y por ultimo un voting, siempre buscando la forma de obtener la mejor accuracy. El modelo esta implementado en una app de Flask desplegada en el servicio fl0 para introducir los datos y realizar predicciones, también se realizará un registro de las predicciones, con la fecha y hora que se ha realizado la predicción y se guardara en una base de datos tipo Postgress alojada en el mismo servicio.
+El acceso al agua potable es esencial para la salud, un derecho humano básico y un componente crucial de una política eficaz de protección de la salud. En este proyecto, se utilizan técnicas de Machine Learning para predecir el acceso al agua potable en diferentes regiones, lo que puede ayudar en la planificación de políticas de salud y desarrollo a nivel nacional, regional y local.
 
 
 ### Proyecto 2: Detección de especies de tiburón mediante Deep Learning.
