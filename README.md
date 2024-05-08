@@ -77,6 +77,9 @@ Proyecto de seguimiento de animales, en este caso tiburones, mediante la libreri
 
 ![Gif tiburones](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Seguimiento%20tiburones%20en%20video/demo.gif)
 
+### Proyecto 5: Clasificación de tumores como benignos o malignos.
+
+Este proyecto utiliza técnicas de Machine Learning para predecir si un tumor es benigno o maligno basándose en una serie de parámetros médicos. Se ha utilizado un conjunto de datos ampliamente conocido en la comunidad de Machine Learning, el conjunto de datos de cáncer de mama de Wisconsin, que contiene características calculadas a partir de imágenes digitalizadas de aspiración con aguja fina (FNA) de tumores mamarios.
 
 ### Proyecto 4: Desafío tripulaciones.
 
