@@ -71,17 +71,19 @@ Proyecto de detección y cálculo de área de manchas de una mamografía, el usu
 ![mamografia_con_area](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion_manchas_mamografia/mamografia_con_poligono.jpg)
 
 
-### Proyecto 3: Seguimiento de tibrones en video.
+### Proyecto 4: Clasificación de tumores como benignos o malignos.
+
+Este proyecto utiliza técnicas de Machine Learning para predecir si un tumor es benigno o maligno basándose en una serie de parámetros médicos. Se ha utilizado un conjunto de datos ampliamente conocido en la comunidad de Machine Learning, el conjunto de datos de cáncer de mama de Wisconsin, que contiene características calculadas a partir de imágenes digitalizadas de aspiración con aguja fina (FNA) de tumores mamarios.
+
+
+### Proyecto 5: Seguimiento de tibrones en video.
 
 Proyecto de seguimiento de animales, en este caso tiburones, mediante la libreria OpenCV. Al ser el video excesivamente pesado a continuación se muestra el resultado del modelo.
 
 ![Gif tiburones](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Seguimiento%20tiburones%20en%20video/demo.gif)
 
-### Proyecto 5: Clasificación de tumores como benignos o malignos.
 
-Este proyecto utiliza técnicas de Machine Learning para predecir si un tumor es benigno o maligno basándose en una serie de parámetros médicos. Se ha utilizado un conjunto de datos ampliamente conocido en la comunidad de Machine Learning, el conjunto de datos de cáncer de mama de Wisconsin, que contiene características calculadas a partir de imágenes digitalizadas de aspiración con aguja fina (FNA) de tumores mamarios.
-
-### Proyecto 4: Desafío tripulaciones.
+### Proyecto 6: Desafío tripulaciones.
 
 El desafío de tripulaciones es la práctica integrada en la que trabajan los estudiantes de todas las disciplinas a través de un proyecto real. El proyecto sobre el que trabajamos las tres verticales es una web-app para el Colegio de Administradores de Fincas Valencia-Castellón. El enfoque del proyecto es mejorar la forma de trabajo de los administradores para poder ser mas eficientes en su trabajo, el proyecto se lleva a cabo junto a las otras 2 verticales, UX/UI y Fullstack. 
 
