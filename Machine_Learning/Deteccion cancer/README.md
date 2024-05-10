@@ -36,6 +36,6 @@ Para ejecutar los cuadernos de Jupyter y utilizar los scripts proporcionados, se
 
 El modelo final entrenado ha alcanzado una precisión del 97% en la clasificación de tumores como benignos o malignos en el conjunto de datos de prueba. Se han realizado análisis adicionales para comprender la importancia de las características en la predicción, como obtener el score y accuracy de todos los modelos entrenados, el feature importance del mejor modelo y se han tomado medidas para abordar el posible desequilibrio de clases obteniendo al matriz de confusion el modelo elegido, con TP=41, FP= 2, FN= 1, TN= 70, lo que nos indica que el modelo tiene una tasa de acierto lo suficientemente alta para el conjunto de datos y que no hay desequilibrio de clases, se puede observar en los porcentajes de TP, FP, FN y TN a continuación.
 
-![c_matrix](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion%20cancer/images/Confusion%20matrix%20heatmap.png)
+![c_matrix](https://github.com/Mvepla/Portfolio/blob/main/Machine_Learning/Deteccion%20cancer/images/c.matrix.png)
 
 
