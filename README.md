@@ -89,6 +89,10 @@ El desafío de tripulaciones es la práctica integrada en la que trabajan los es
 
 La parte de proyecto del grupo de Data Science se centra en realizar una API-REST para realizar un tratamiento de las actas de las reuniones de comunidad. Para ello se ha creado una api con flask que recibe como entrada un acta en formato pdf, este acta se transforma en texto y pasa a un modelo de Huggingface (facebook/bart-large.cnn) el cual hace un resumen. Una vez obtenido el resumen, para transcribirlo a audio pasa por un modelo Google Text-to-Speech (gTTs) que devuelve el contenido del resumen en un archivo mp3. Una vez tenemos el pdf, resumen y modelo se suben a la BBDD, para la BBD se usa MongoDB Atlas, que es un servicio de Cloud Database (o Base de Datos en la Nube)
 
+### Proyecto 4: Chatbot G-PriesT.
+
+G-Priest es un chatbot que simula ser un cura católico, utilizando la API de Cohere para el procesamiento del lenguaje natural y técnicas de prompt engineering. Esta aplicación está desplegada en Render.
+
 # Talleres Bootcamp
 
 ### Taller Visualizaciones: ¿Nos mienten con los datos?
